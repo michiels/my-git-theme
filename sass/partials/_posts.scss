@@ -1,0 +1,9 @@
+@import "compass/css3";
+
+.content {
+  @include border-radius(8px);
+}
+
+.posts {
+  margin: 40px;
+}

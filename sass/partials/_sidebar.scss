@@ -1,0 +1,9 @@
+@import "compass/css3";
+
+.sidebar {
+  @include border-radius(8px);
+}
+
+.widget {
+  margin: 20px;
+}

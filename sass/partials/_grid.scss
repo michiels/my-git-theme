@@ -1,0 +1,21 @@
+@import "blueprint";
+
+body {
+  background-color: #222;
+}
+
+.container {
+  @include container;
+  margin-top: 60px;
+  
+  .content {
+    @include column(18);
+    background-color: #fff;
+  }
+  
+  .sidebar {
+    @include column(6, true);
+    background-color: #fff;
+  }
+  
+}
